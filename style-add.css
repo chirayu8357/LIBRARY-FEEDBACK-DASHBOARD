@@ -1,0 +1,75 @@
+
+/* style-add.css */
+
+body {
+  background: linear-gradient(to right, #dbeafe, #bae6fd); /* subtle blue gradient */
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #2563eb;
+  margin-bottom: 18px;
+}
+
+form {
+  background: #fff;
+  padding: 28px 32px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(30, 64, 175, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 320px;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #1d4ed8;
+}
+
+input[type="text"] {
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 1px solid #b6c7e2;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  background: #f3f4f6;
+}
+
+button {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-top: 6px;
+  transition: background 0.2s;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+button:last-child {
+  background: #2563eb;
+}
+
+button:last-child:hover {
+  background: #1d4ed8;
+}

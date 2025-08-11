@@ -1,0 +1,93 @@
+
+/* style-all.css */
+
+/* Basic page styling */
+body {
+  background: linear-gradient(to right, #f0f9ff, #e0f2fe);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Main heading */
+h1 {
+  color: #2563eb;
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+#display {
+  background: #ffffff;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 90%;
+  max-width: 900px;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #2563eb;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+/* Buttons */
+button {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+/* Blue button for navigation */
+button a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#display > button {
+  background: #2563eb;
+  margin-top: 15px;
+}
+
+#display > button:hover {
+  background: #1d4ed8;
+}
+
+/* Delete button style inside the table */
+form button {
+  background: #ef4444;
+}
+
+form button:hover {
+  background: #dc2626;
+}
